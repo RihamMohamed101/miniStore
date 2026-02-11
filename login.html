@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+        <div id="nav">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" style="width: 40px" alt="" />
+            <span class="fw-bold">Green Grocer</span>
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-lg-auto me-lg-auto align-items-center ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+
+               
+            </ul>
+            <ul class="navbar-nav flex-row ms-lg-5 align-items-center">
+              <li class="nav-item me-lg-0 me-3" id="cart-check">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+
+              <li class="nav-item me-lg-0 me-3">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-heart"></i>
+                </a>
+              </li>
+
+              <li class="nav-item d-none ms-3" id="picture">
+                  <img src="./images/default.png" alt="" class="img-fluid rounded-circle" style="width: 70px; height: 70px;">
+               </li>
+
+              <li class="nav-item mx-3 d-none" id="userLogin">
+                <a
+                  class="nav-link border border-1 border-black px-3 rounded-1"
+                  href="login.html"
+                  >Login</a
+                >
+              </li>
+
+              <li class="nav-item me-3 d-none" id="userRegister">
+                <a class="nav-link" href="login.html">Sign Up</a>
+              </li>
+
+
+                <li class="nav-item me-3 d-none" id="logout">
+                <a class="nav-link border border-1 border-black px-3 rounded-1"
+                 href="index.html">Logout</a>
+              </li>
+
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="loginPage py-5 overflow-hidden position-relative min-vh-100 ">
+    
+        <img src="./images/product3.png" alt="" class="position-absolute opacity-75 " style="top:50% ; right:0%  ;  ">
+
+       <img src="./images/tomato.png" alt="" class="position-absolute opacity-75" style="top:50% ; left:0% ;  ">
+
+      <!-- <img src="./images/product2.png" alt="" class="position-absolute end-50 top-50" style=" width: 100px" > -->
+      
+      <div class="container mt-5 ">
+
+
+        <button class=" tranlo border-0 p-2 px-0 mb-4 rounded-pill">
+            <a href="#" class=" p-2 px-3 rounded-pill text-black  text-decoration-none">Login</a>
+            <a href="#" class=" acTran text-decoration-none text-black p-2 px-3 rounded-pill">Register</a>
+        </button>
+          <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col-md-6 log-container d-none">
+            <div class="card shadow-sm bg-transparent py-3 log-container">
+              <h2 class="text-center">Welcome Back!</h2>
+              <div class="card-body bg-transparent">
+                <h3 class="text-center mb-4 fs-4 ">Login</h3>
+                <form>
+                  <div class="mb-4">
+                    <input
+                      type="email"
+                      class="form-control bg-transparent border border-1 border-black"
+                      id="logemail"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="mb-0">
+                    
+                    <input
+                      type="password"
+                      class="form-control  bg-transparent border border-1 border-black"
+                      id="logpass"
+                      placeholder="Enter your password"
+                    />
+                  </div>
+
+
+                  <div class="d-flex justify-content-center btn-container">
+                    <a
+                      href="#"
+                      class="text-decoration-none mt-5 px-3 py-2 bg-transparent text-black  my-1 d-inline-block rounded-1 border border-1 border-black"
+                      >Login</a
+                    >
+                  </div>
+
+                 <p class="text-danger text-center fw-bold d-none" id="error-message">Invalid email or password</p>
+
+                </form>
+              </div>
+            </div>
+
+            
+          </div>
+
+
+             <div class="col-md-6 reg-container ">
+            <div class="card shadow-sm bg-transparent py-3 log-container">
+              <h2 class="text-center">Welcome Back!</h2>
+              <div class="card-body bg-transparent">
+                <h3 class="text-center fs-4 mb-4">Register</h3>
+                <form>
+                  <div class="mb-4">
+                    <input
+                      type="email"
+                      class="form-control bg-transparent border border-1 border-black"
+                      id="email"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div class="mb-0">
+                    
+                    <input
+                      type="password"
+                      class="form-control  bg-transparent border border-1 border-black"
+                      id="password"
+                      placeholder="Enter your password"
+                    />
+                  </div>
+
+                  <div class="mt-4">
+                            <label class="form-label small fw-bold d-block">Profile Image</label>
+                            <label for="file" class="file-upload-label w-100">
+                                <i class="fa-solid fa-cloud-arrow-up me-2"></i> Choose Image
+                            </label>
+                            <input type="file" id="file" class="d-none" accept="image/*">
+                        </div>
+
+                  <div class="d-flex justify-content-center btn-container">
+                    <a
+                      href="#"
+                      class="text-decoration-none mt-4 px-3 py-2 bg-transparent text-black  my-1 d-inline-block rounded-1 border border-1 border-black"
+                      >Register</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+           
+        
+          </div>
+
+         
+      </div>
+    </section>
+
+
+  
+    <div id="footer"></div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

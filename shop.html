@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+
+
+      <div id="nav">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" style="width: 40px" alt="" />
+            <span class="fw-bold">Green Grocer</span>
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-lg-auto me-lg-auto align-items-center ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+
+               
+            </ul>
+            <ul class="navbar-nav flex-row ms-lg-5 align-items-center">
+              <li class="nav-item me-lg-0 me-3" id="cart-check">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+
+              <li class="nav-item me-lg-0 me-3">
+                <a class="nav-link" href="#"
+                  ><i class="fa-solid fa-heart"></i>
+                </a>
+              </li>
+
+              <li class="nav-item d-none" id="picture">
+                  <img src="./images/default.png" alt="" class="img-fluid rounded-circle" style="width: 70px; height: 70px;">
+               </li>
+
+              <li class="nav-item mx-3 d-none" id="userLogin">
+                <a
+                  class="nav-link border border-1 border-black px-3 rounded-1"
+                  href="login.html"
+                  >Login</a
+                >
+              </li>
+
+              <li class="nav-item me-3 d-none" id="userRegister">
+                <a class="nav-link" href="login.html">Sign Up</a>
+              </li>
+
+
+                <li class="nav-item me-3 d-none" id="logout">
+                <a class="nav-link border border-1 border-black px-3 rounded-1"
+                 href="index.html">Logout</a>
+              </li>
+
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+     <section id="product" class="py-5">
+     
+      <div class="container  py-5">
+          
+          <div class="row">
+               <ul
+            class="col-4 col-md-2  d-flex flex-column justify-content-center  mt-md-0 list-unstyled p-0 position-sticky"
+            style="height: 300px; top: 50px;"
+          >
+            <li class="mb-3">
+              <a
+                href="#"
+                class="activ-product text-decoration-none fw-semibold p-2 text-black bntt"
+                data-category="All"
+                >
+                <img src="./images/Image 44.png" alt="" style="width: 30px; height: 30px;">
+                All</a
+              >
+            </li>
+
+        
+
+            <li class="mb-3">
+
+
+              <a
+                href="#"
+                class="text-decoration-none fw-semibold p-2 text-black bntt"
+                data-category="Vegetables"
+                >
+                 <img src="./images/tomato.png" alt="" style="width: 20px; height: 20px;">
+                Vegetables
+                </a
+              >
+            </li>
+
+            <li class="mb-3">
+              <a
+                href="#"
+                class="text-decoration-none fw-semibold p-2 text-black bntt"
+                data-category="Fruits"
+                >
+                 <img src="./images/product3.png" alt="" style="width: 30px; height: 30px;">
+                Fruits</a
+              >
+            </li>
+
+
+             <li class="mb-3">
+              <a
+                href="#"
+                class="text-decoration-none fw-semibold p-2 text-black bntt"
+                data-category="Snacks"
+                >
+                 <img src="./images/product5.png" alt="" style="width: 30px; height: 30px;">
+                Snacks</a
+              >
+            </li>
+
+
+             <li class="mb-3">
+              <a
+                href="#"
+                class="text-decoration-none fw-semibold p-2 text-black bntt"
+                data-category="Milk"
+                >
+                 <img src="./images/Image 43.png" alt="" style="width: 30px; height: 30px;">
+                Milk</a
+              >
+            </li>
+          </ul>
+    
+        <div id="shop" class="col-8 col-md-10 row row-gap-md-4 mt-3 position-relative"></div>
+          </div>
+
+
+       
+      </div>
+    </section>
+
+
+
+    <div id="footer"></div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/product.js"></script>
+    
+</body>
+</html>

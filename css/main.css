@@ -1,0 +1,105 @@
+:root {
+  --spacial-color: #517907;
+  --second-color: #def1bd;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.header-span,
+.about-spacial {
+  color: var(--spacial-color);
+}
+
+#header  {
+  background-image: linear-gradient(to bottom right,#fcfcf7, #f5eead);
+}
+
+#About .box-one {
+  background-color: var(--second-color);
+}
+
+#About .box-2 {
+    background-color: #FDF8D0;
+}
+
+.footer-bg input:focus , .loginPage input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.loginPage h3 {
+  color: var(--spacial-color);
+  font-size: 3rem;
+}
+
+.footer-bg {
+  background-color: var(--second-color);
+}
+
+.activ-product {
+  color: var(--spacial-color) !important;
+}
+
+.cart-product , .product-off {
+  background-color: var(--second-color);
+}
+
+
+.product-img {
+    height: 150px;     
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  
+}
+
+.product-img img {
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: contain; 
+    transition: transform 0.3s ease; 
+}
+
+
+.product-card:hover .product-img img {
+    transform: scale(1.1);
+}
+
+.loginPage{
+ 
+  height: 100vh;
+  background-image: linear-gradient(to bottom right,#fcfcf7, #f5eead);
+}
+
+.tranlo {
+  background-color: var(--second-color);
+}
+
+.acTran {
+  background-color: var(--spacial-color) !important;
+  color: white !important;
+}
+
+.err {
+  border-color: red !important;
+}
+
+@media (max-width: 768px) {
+  .header-image img {
+    width: 300px !important;
+  }
+
+  .loginPage img {
+        width: 100px !important; 
+        opacity: 0.3;
+    }
+}
+
+@media (min-width: 768px) {
+  #header h2 {
+    font-size: 3.4rem;
+  }
+}

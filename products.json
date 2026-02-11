@@ -1,0 +1,237 @@
+[
+    {
+    "id": 1,
+    "category": "Fruits",
+    "name": "Apple",
+    "price": 1.99,
+    "imag": "images/product1.png"
+  },
+  {
+    "id": 2,
+    "category": "Fruits",
+    "name": "Kiwi",
+    "price": 10.99,
+    "imag": "images/product2.png"
+  },
+  {
+    "id": 3,
+    "category": "Fruits",
+    "name": "Banana",
+    "price": 2.99,
+    "imag": "images/product3.png"
+  },
+  {
+    "id": 4,
+    "category": "Fruits",
+    "name": "Orange",
+    "price": 2.99,
+    "imag": "images/product9.png"
+  },
+  {
+    "id": 5,
+    "category": "Fruits",
+    "name": "Grapes",
+    "price": 2.99,
+    "imag": "images/product10.png"
+  },
+  {
+    "id": 6,
+    "category": "Fruits",
+    "name": "Pineapple",
+    "price": 2.99,
+    "imag": "images/product11.png"
+  },
+  {
+    "id": 7,
+    "category": "Fruits",
+    "name": "Strawberry",
+    "price": 2.99,
+    "imag": "images/product12.png"
+  },
+  {
+    "id": 8,
+    "category": "Fruits",
+    "name": "Watermelon",
+    "price": 2.99,
+    "imag": "images/product7.png"
+  },
+  {
+    "id": 10,
+    "category": "Fruits",
+    "name": "Pomegranate",
+    "price": 2.99,
+    "imag": "images/product13.png"
+  } ,
+
+  {
+    "id": 11,
+    "name": "Tomato",
+    "price": 15,
+    "imag": "images/tomato.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 12,
+    "name": "Potato",
+    "price": 10,
+    "imag": "images/potato.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 13,
+    "name": "Onion",
+    "price": 12,
+    "imag": "images/product8.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 14,
+    "name": "Cucumber",
+    "price": 14,
+    "imag": "images/cucumber.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 15,
+    "name": "Carrot",
+    "price": 13,
+    "imag": "images/carrot.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 16,
+    "name": "Eggplant",
+    "price": 18,
+    "imag": "images/eggplant.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 17,
+    "name": "BellPepper",
+    "price": 20,
+    "imag": "images/bellpepper.png",
+    "category": "Vegetables"
+  },
+  {
+    "id": 18,
+    "name": "Spinach",
+    "price": 9,
+    "imag": "images/spinach.png",
+    "category": "Vegetables"
+  } ,
+
+
+   {
+    "id": 101,
+    "name": "Potato Chips",
+    "price": 20,
+    "imag": "./images/chips.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 102,
+    "name": "Chocolate Bar",
+    "price": 15,
+    "imag": "images/chocolate.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 103,
+    "name": "Biscuits",
+    "price": 18,
+    "imag": "images/biscuits.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 104,
+    "name": "Popcorn",
+    "price": 12,
+    "imag": "images/popcorn.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 105,
+    "name": "Pretzels",
+    "price": 22,
+    "imag": "images/pretzels.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 106,
+    "name": "Cupcake",
+    "price": 25,
+    "imag": "images/cupcake.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 107,
+    "name": "Donut",
+    "price": 17,
+    "imag": "images/Donut.png",
+    "category": "Snacks"
+  },
+  {
+    "id": 108,
+    "name": "Ice Cream",
+    "price": 30,
+    "imag": "images/icecream.png",
+    "category": "Snacks"
+  },
+
+  {
+    "id": 201,
+    "name": "Fresh Milk",
+    "price": 28,
+    "imag": "images/milk.png",
+    "category": "Milk"
+  },
+  {
+    "id": 202,
+    "name": "Chocolate Milk",
+    "price": 30,
+    "imag": "images/chocolate-milk.png",
+    "category": "Milk"
+  },
+  {
+    "id": 203,
+    "name": "Strawberry Milk",
+    "price": 32,
+    "imag": "images/strawberry-milk.png",
+    "category": "Milk"
+  },
+  {
+    "id": 204,
+    "name": "Yogurt",
+    "price": 12,
+    "imag": "images/Yogurt.png",
+    "category": "Milk"
+  },
+  {
+    "id": 205,
+    "name": "Greek Yogurt",
+    "price": 18,
+    "imag": "images/greek-yogurt.png",
+    "category": "Milk"
+  },
+  {
+    "id": 206,
+    "name": "Cheese",
+    "price": 45,
+    "imag": "images/cheese.png",
+    "category": "Milk"
+  },
+  {
+    "id": 207,
+    "name": "Butter",
+    "price": 40,
+    "imag": "images/butter.png",
+    "category": "Milk"
+  },
+  {
+    "id": 208,
+    "name": "Cream",
+    "price": 35,
+    "imag": "images/cream.png",
+    "category": "Milk"
+  }
+]
