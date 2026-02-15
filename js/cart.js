@@ -32,6 +32,7 @@ calculateTotal(cart);
 
 }
 
+
 displayCartItems();
 
 function removeItem (index ){

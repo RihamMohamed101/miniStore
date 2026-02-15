@@ -60,8 +60,6 @@ document.querySelectorAll(".product-card").forEach((card) => {
   });
 });
 
-
-
 var isOgin = JSON.parse(sessionStorage.getItem("isLogin")) || false;
 
 document.querySelector("#cart-check").addEventListener("click", function (e) {
@@ -73,3 +71,11 @@ document.querySelector("#cart-check").addEventListener("click", function (e) {
   }
 });
 
+document.querySelector("#wish-check").addEventListener("click", function (e) {
+  e.preventDefault();
+  if (isOgin) {
+    window.location.href = "wishIist.html";
+  } else {
+    window.location.href = "login.html";
+  }
+});

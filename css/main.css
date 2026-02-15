@@ -8,6 +8,9 @@
   border: none !important;
   box-shadow: none !important;
 }
+.navbar-nav .nav-link.active {
+  color: var(--spacial-color);
+}
 
 .header-span,
 .about-spacial {
@@ -72,6 +75,10 @@
  
   height: 100vh;
   background-image: linear-gradient(to bottom right,#fcfcf7, #f5eead);
+}
+
+#wishList {
+   background-image: linear-gradient(to bottom right,#fcfcf7, #f5eead);
 }
 
 .tranlo {
