@@ -74,7 +74,7 @@
     "id": 12,
     "name": "Potato",
     "price": 10,
-    "imag": "images/potato.png",
+    "imag": "images/Potato.png",
     "category": "Vegetables"
   },
   {
@@ -88,35 +88,35 @@
     "id": 14,
     "name": "Cucumber",
     "price": 14,
-    "imag": "images/cucumber.png",
+    "imag": "images/Cucumber.png",
     "category": "Vegetables"
   },
   {
     "id": 15,
     "name": "Carrot",
     "price": 13,
-    "imag": "images/carrot.png",
+    "imag": "images/Carrot.png",
     "category": "Vegetables"
   },
   {
     "id": 16,
     "name": "Eggplant",
     "price": 18,
-    "imag": "images/eggplant.png",
+    "imag": "images/Eggplant.png",
     "category": "Vegetables"
   },
   {
     "id": 17,
     "name": "BellPepper",
     "price": 20,
-    "imag": "images/bellpepper.png",
+    "imag": "images/Bellpepper.png",
     "category": "Vegetables"
   },
   {
     "id": 18,
     "name": "Spinach",
     "price": 9,
-    "imag": "images/spinach.png",
+    "imag": "images/Spinach.png",
     "category": "Vegetables"
   } ,
 
@@ -153,14 +153,14 @@
     "id": 105,
     "name": "Pretzels",
     "price": 22,
-    "imag": "images/pretzels.png",
+    "imag": "images/Pretzels.png",
     "category": "Snacks"
   },
   {
     "id": 106,
     "name": "Cupcake",
     "price": 25,
-    "imag": "images/cupcake.png",
+    "imag": "images/Cupcake.png",
     "category": "Snacks"
   },
   {
